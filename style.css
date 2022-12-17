@@ -1,0 +1,54 @@
+*{
+ padding: 0;
+ margin: 0;  
+ box-sizing: border-box; 
+}
+.header-section{
+    background-color: rgb(222, 238, 247);
+}
+.header-section img{
+    max-width: 100%;   
+}
+.firstcol{
+     padding: 50px 15px;  
+}
+.firstcol h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.Teeth{
+background: #ffff;
+/* border: 1px solid white; */
+border-radius: 50px;
+padding: 15px;
+}
+.Teeth i{
+    color: #1dbfcc;
+}
+
+.color{
+    color: #1dbfcc;
+}
+
+.color1{
+    color: #002345;
+}
+.appointment{
+    border: 1px solid white;
+    background: #1dbfcc;
+    padding: 13px 33px;
+    /* margin-top: 40px; */
+}
+.appointment a{
+    color: white;
+    text-decoration: none;
+}
+.Dentist{
+    border: 1px solid white;
+    background: #002345;
+    padding: 13px 24px;
+}
+.Dentist a{
+    color: white;
+    text-decoration: none;
+}

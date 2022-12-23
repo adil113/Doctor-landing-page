@@ -3,6 +3,12 @@
  margin: 0;  
  box-sizing: border-box; 
 }
+body{
+    background: #eaf1f7;
+}
+a{
+    text-decoration: none;
+}
 .header-section{
     background-color: rgb(222, 238, 247);
 }
@@ -52,3 +58,133 @@ padding: 15px;
     color: white;
     text-decoration: none;
 }
+/* header close */
+/* main sectio open */
+.main-section{
+    padding: 90px 24px;
+}
+.Certified{
+    background-color: #5EA89C;
+    color: white;
+}
+.Technology{
+    background-color: #E86548;
+    color: #ffff;
+}
+.Insurance{
+    background-color: #456483;
+    color: #ffff;
+}
+.title{
+    /* padding: 29px 10px; */
+}
+.main-section p{
+  line-height: 20px;
+}
+
+/* 
+.Technology title{
+    padding: 29px 19px;
+}
+.Insurance title{
+    padding: 29px 19px;
+} */
+.Certified a{
+    color: #ffff;
+    font-weight: bold;
+    text-decoration: none;
+    /* padding: 25px 20px; */
+}
+.Technology a{
+    color: #ffff;
+    font-weight: bold;
+    text-decoration: none;
+    /* padding: 25px 20px; */
+}
+.Insurance a{
+    color: #ffff;
+    font-weight: bold;
+    text-decoration: none;
+    /* padding: 25px 20px; */
+}
+.Certified:hover{
+   background-color: #0bf7cf;
+   transition: var(--transition);
+   position: relative;
+   z-index: 1;
+   overflow: hidden;
+}
+.Technology:hover{
+    background-color: #0bf7cf;;
+ }
+ .Insurance:hover{
+    background-color: #0bf7cf;
+ }
+/* main sectio close */
+/* section one open */
+.section-title-warp{
+
+}
+
+.section-title-warp span{
+    border: 1px solid #5EA89C ;
+    color: #1dbfcc;
+    padding: 11px 20px;
+    border-radius: 2rem;
+
+}
+.section-title-warp h2{
+  padding-top: 30px;
+  font-size: 40px;
+}
+.section-title-warp b{
+   font-size: 40px;
+}
+.section-warp-btn{
+    padding-top: 88px;
+}
+.section-warp-btn a{
+text-decoration: none;
+float: right;
+border: 1px solid #1dbfcc;
+color: white;
+background-color: #1dbfcc;
+padding: 20px 50px;
+}
+/* section one close */
+/* section two open */
+/* .section-two{
+    margin: 50px 0px;
+    padding: 50px;
+} */
+.section-two img{
+    max-width: 110%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+.lady-doctor{
+    margin: 10px;
+    padding: 20px;
+    background: #ffff;
+}
+
+.male-doctor{
+    margin: 10px;
+    padding: 20px;
+    background: #ffff;
+}
+.patient{
+    margin: 10px;
+    padding: 20px;
+    background: #ffff;
+}
+.section-two a{
+    border: 1px solid #1dbfcc;
+    border-radius: 2rem;
+    background: #1dbfcc;
+    padding: 15spx 100px;
+    color: #ffff;
+    margin: 50px;
+}
+/* section two close */

@@ -238,5 +238,85 @@ padding-bottom: 120px;
     color: rgb(77, 238, 77);
     padding: 7px 5px;
 }
-
+.fourth-sec h3{
+    padding: 15px 0px;
+    font-size: 35px;
+}
+.precision{
+    color: #1dbfcc;
+    font-size: 35px;
+}
+.fourth-sec ul li{
+    padding: 10px;
+    list-style-type: none;
+}
+.fourth-sec ul li i{
+    border: 1px solid #ffff;
+    background: #1dbfcc;
+    border-radius: 3rem;
+    padding: 6px;
+}
+.fourth-sec img{
+    width: 20%;
+    height: auto;
+    border: 1px solid #ffff;
+    border-radius: 4rem;
+    background-color: #ffff;
+    margin: 20px;
+}
+.fourth-sec h4{
+   font-size: 30px;
+    margin: 20px;
+}
 /* section four close */
+/* section five open */
+
+.patient3 .content{
+    /* position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 30px;
+    -webkit-transition: var(--transition);
+    transition: var(--transition); */
+    /* z-index: 5; */
+}
+
+.section-five{
+    max-width: 100%;
+}
+.bgimage1{
+    background: url(./img/patient3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    border-radius: 1rem;
+}
+.bgimage2{
+    background: url(./img/patient2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    border-radius: 1rem;
+}
+.bgimage3{
+    background: url(./img/patient1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    border-radius: 1rem;
+}
+
+/* section five close */
+/* section six open */
+
+
+.section-six button{
+    float: right;
+    background: #1dbfcc;
+    padding: 15px 30px;
+    border: 1px solid #1dbfcc;
+    border-radius: 1rem;
+}
+/* section six close */

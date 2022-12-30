@@ -5,6 +5,7 @@
 }
 body{
     background: #eaf1f7;
+    max-width: 100%;
 }
 a{
     text-decoration: none;
@@ -226,7 +227,8 @@ padding-bottom: 120px;
 /* section three close */
 /* section four open */
 .section-four{
-
+max-width: 100%;
+padding: 50px;
 }
 .span span{
     border: 1px solid #ffff;
@@ -310,13 +312,123 @@ padding-bottom: 120px;
 
 /* section five close */
 /* section six open */
-
+.section-six{
+    padding-top: 20px;  
+}
 
 .section-six button{
     float: right;
     background: #1dbfcc;
-    padding: 15px 30px;
+    padding: 18px 40px;
+    margin: 4px 0px;
     border: 1px solid #1dbfcc;
     border-radius: 1rem;
+    color: #ffff;
+}
+.doctor1{
+    margin: 40px;
+}
+.doctor1 img{
+    width: 100%;
+    height: auto;
 }
 /* section six close */
+/* section seven open */
+
+
+.section-seven button{
+    float: right;
+    background: #1dbfcc;
+    padding: 18px 40px;
+    margin: -70px -30px;
+    border: 1px solid #1dbfcc;
+    border-radius: 5px;
+    color: #ffff;
+}
+.card-body{
+    padding: 20px;
+}
+.card-body i{
+    color: #1dbfcc;
+    font-size: 60px;
+    
+ 
+}
+.card-body img{
+    display: inline-block;
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    /* position: absolute; */
+    left: 0;
+    top: 0;
+}
+.card-body h4{
+    padding: 10px;
+    font-size: 20px;
+}
+.card-body p{
+    padding-left: 10px;   
+}
+.card :hover{
+    background: #1dbfcc;
+    color: #ffff;
+}
+/* section seven close */
+/* section eight open */
+.section-eight{
+    background: #ffff;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.section-eight button{
+    float: right;
+    background: #1dbfcc;
+    padding: 18px 40px;
+    margin: -70px -30px;
+    border: 1px solid #1dbfcc;
+    border-radius: 5px;
+    color: #ffff;
+}
+.section-eight .column{
+    /* width: 18rem; */
+}
+.section-eight img{
+    width: 20rem;
+}
+/* section eight close */
+/* section nine open */
+.section-nine{
+    background-color: #002345;
+    padding: 20px;
+}
+
+.section-nine h3{
+    color: #1dbfcc;
+    padding: 40px 0px;
+}
+.section-nine ul li{
+    color: #ffff;
+    padding: 10px 0px;
+    list-style-type: none;
+}
+.share-link a{
+    background-color: #ffff;
+    border: 1px solid #ffff;
+    border-radius: 4rem;
+    font-size: 15px;
+    padding: 8px;
+    margin-left: 14px;
+}
+.section-nine form input{
+    padding: 15px 20px;
+    margin-left: 24px;
+}
+.section-nine form i{
+    padding: 19px 1px;
+    background: #1dbfcc;
+    color: #ffff;
+    
+}
+/* section nine close */

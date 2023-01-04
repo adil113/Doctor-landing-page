@@ -479,10 +479,16 @@ padding: 50px;
     padding: 20px;
 }
 .card-body i{
-    color: #1dbfcc;
-    font-size: 60px;
-    
- 
+   display: inline-block;
+   height: 70px;
+   width: 70px;
+   line-height: 80px;
+   background: #ffff;
+   color: #1dbfcc;
+   text-align: center;
+   font-size: 40px;
+   border-radius: 50%;
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .card-body img{
     display: inline-block;
@@ -561,13 +567,24 @@ padding: 8px 20px;
 .article-body{
     padding: 20px;
 }
-.article-footer{
-    padding: 20px 10px;
-    border-top: 1px solid #eeeeee;
-    margin: 15px;
-
+.article-body a{
+    color: #000;
+    font-size: 14px;
 }
-
+.article-body a:hover{
+    color: #1dbfcc;
+}
+.article-footer{
+    padding: 14px 10px;
+    border-top: 1px solid #eeeeee;
+    margin: 5px;
+}
+.article-footer i{
+    color: #1dbfcc;
+}
+.article-footer span{
+    color: #000;
+}
 
 
 
@@ -592,10 +609,19 @@ padding: 8px 20px;
 .share-link a{
     background-color: #ffff;
     border: 1px solid #ffff;
-    border-radius: 5rem;
-    font-size: 20px;
+    border-radius: 100%;
+    font-size: 15px;
     padding: 6px;
-    margin-left: 14px;
+    margin-left: 6px;
+    margin-right: 6px;
+    position: relative;
+    text-align: center;
+    color: #002345;
+}
+.share-link a:hover{
+    background-color: #1dbfcc;
+    color: #fff;
+    border: #1dbfcc;
 }
 .section-nine form input{
     padding: 15px 20px;

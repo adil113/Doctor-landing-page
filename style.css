@@ -222,30 +222,41 @@ padding-bottom: 120px;
 }
 .section-three h4{
     font-weight: bold;
-    font-size: 30px;
-    padding: 0px 22px;
+    font-size: 27px;
+    padding: 20px 31px;
 }
 .section-three input{
-    padding: 11px 156px 12px 19px;
-   margin: 10px 0px 5px 0px;
+    display: block;
+    padding: 13px 219px 13px 19px;
+   border: 1px solid #eeeeee;
+   font-size: 14px;
+   margin: 0px 0px -4px 24px;
+   border-radius: 5px;
 }
 .form{
     background-color: #ffff;
-    padding: 30px 12px;
+    padding: 0px 0px 37px 0px;
+    margin: 0px -40px 15px 40px;
+    border-radius: 8px;
 }
-form{
-    padding-bottom: 30px;
+.form h4 i{
+    color: #1dbfcc;
+    font-size: 22px;
+    padding: 0px 10px 0px 0px;
 }
+
 .form a{
     border: 1px solid#1dbfcc;
     background: #1dbfcc;
     color: #ffff;
-    padding: 14px 40px;
-    margin: 8px 24px 10px 2px;
+    padding: 12px 30px;
     position: relative;
-    top: 30px;
-
+    top: 10px;
+    margin: 20px 22px;
+    border-radius: 5px;
+    top: 5;
 }
+
 
 /* section three close */
 /* section four open */
@@ -490,6 +501,10 @@ padding: 50px;
    border-radius: 50%;
     transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
+.card-body i :hover{
+    color: #fff;
+    background: #1dbfcc;
+}
 .card-body img{
     display: inline-block;
     height: 58px;
@@ -599,12 +614,16 @@ padding: 8px 20px;
 
 .section-nine h3{
     color: #1dbfcc;
-    padding: 40px 0px;
+    padding: 20px 30px;
+    font-size: 22px;
 }
 .section-nine ul li{
     color: #ffff;
     padding: 10px 0px;
     list-style-type: none;
+}
+.share-link{
+    padding: 0px 0px 0px 23px;
 }
 .share-link a{
     background-color: #ffff;

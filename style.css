@@ -10,6 +10,9 @@ body{
 a{
     text-decoration: none;
 }
+p{
+    color:  #486683;
+}
 .header-section{
     background-color: rgb(222, 238, 247);
 }
@@ -124,7 +127,7 @@ padding: 15px;
    transition: var(--transition);
    position: relative;
    z-index: 1;
-   transform: translateY(-5px);
+   /* transform: translateY(-5px); */
 }
 .Technology:hover{
     background-color: #0bf7cf;
@@ -132,14 +135,14 @@ padding: 15px;
     transition: var(--transition);
     position: relative;
     z-index: 1;
-    transform: translateY(-5px);
+    /* transform: translateY(-5px); */
  }
  .Insurance:hover{
     background-color: #0bf7cf;
     transition: var(--transition);
     position: relative;
     z-index: 1;
-    transform: translateY(-5px);
+    /* transform: translateY(-5px); */
  }
 /* main sectio close */
 /* section one open */
@@ -150,13 +153,14 @@ padding: 15px;
 .section-title-warp span{
     border: 1px solid #5EA89C ;
     color: #1dbfcc;
-    padding: 11px 20px;
+    padding: 9px 23px;
     border-radius: 2rem;
-
+    font-size: 12px;
+    background: #ffff;
 }
 .section-title-warp h2{
   padding-top: 30px;
-  font-size: 40px;
+  font-size: 34px;
 }
 .section-title-warp b{
    font-size: 40px;
@@ -230,12 +234,12 @@ padding-bottom: 120px;
     padding: 13px 219px 13px 19px;
    border: 1px solid #eeeeee;
    font-size: 14px;
-   margin: 0px 0px -4px 24px;
+   margin: 0px 0px -2px 24px;
    border-radius: 5px;
 }
 .form{
     background-color: #ffff;
-    padding: 0px 0px 37px 0px;
+    padding: 0px 0px 44px 0px;
     margin: 0px -40px 15px 40px;
     border-radius: 8px;
 }
@@ -250,9 +254,8 @@ padding-bottom: 120px;
     background: #1dbfcc;
     color: #ffff;
     padding: 12px 30px;
-    position: relative;
-    top: 10px;
-    margin: 20px 22px;
+    display:inline-block ;
+    margin: 20px 0px 0px 22px;
     border-radius: 5px;
     top: 5;
 }
@@ -262,7 +265,7 @@ padding-bottom: 120px;
 /* section four open */
 .section-four{
 max-width: 100%;
-padding: 50px;
+padding: 82px;
 }
 .span span{
     border: 1px solid #ffff;
@@ -283,19 +286,21 @@ padding: 50px;
     font-size: 35px;
 }
 .fourth-sec ul li{
-    padding: 10px;
+    padding: 7px;
     list-style-type: none;
+    font-size: 14px;
 }
 .fourth-sec ul li i{
     border: 1px solid #ffff;
     background: #1dbfcc;
     border-radius: 3rem;
-    padding: 6px;
+    padding: 4px;
     color: #ffff;
 }
 .fourth-sec img{
     width: 20%;
     height: auto;
+    color: #0bf7cf;
     border: 1px solid #ffff;
     border-radius: 4rem;
     background-color: #ffff;
@@ -475,13 +480,15 @@ padding: 50px;
 
 /* section six close */
 /* section seven open */
-
+.section-seven{
+    padding: 70px;
+}
 
 .section-seven button{
     float: right;
     background: #1dbfcc;
     padding: 18px 40px;
-    margin: -70px -30px;
+    margin: -70px 58px;
     border: 1px solid #1dbfcc;
     border-radius: 5px;
     color: #ffff;
@@ -643,16 +650,18 @@ padding: 8px 20px;
     border: #1dbfcc;
 }
 .section-nine form input{
-    padding: 15px 20px;
-    margin-left: 24px;
+    padding: 12px 10px;
+    font-size: 15px;
+    margin-left: 34px;
 }
 .section-nine form i{
-    padding: 19px 1px;
+    padding: 13px 12px;
     background: #1dbfcc;
     color: #ffff;
 }
 .section-nine button{
-    padding: 0px 39px;
-    margin: -58px -29px;
+    border: none;
+    position: relative;
+    right: 49px;
 }
 /* section nine close */
